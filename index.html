@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    .navbar {
+      border-bottom: 6px solid gold;
+      height: 100px;
+      width: 100%;
+      background-color: #25373D;
+      display: flex;
+      text-align: center;
+      flex-wrap: wrap;
+      position: fixed;
+      top: 0;
+      left: 0;
+    }
+
+    .navbar .liste {
+      width: 40%;
+      display: flex;
+
+    }
+
+    .navbar .yazi {
+      color: white;
+      width: 60%;
+    }
+
+    .navbar .liste ul li a {
+      text-decoration: none;
+      color: white;
+    }
+
+    .navbar .liste ul {
+      display: flex;
+      align-items: flex-end;
+
+
+
+    }
+
+    .navbar .liste ul li {
+      list-style-type: none;
+      margin: 20px;
+    }
+
+    .sari {
+      color: gold;
+    }
+
+    .container {
+      margin: 0 25%;
+      width: 50%;
+      padding-top: 120px;
+
+    }
+
+    .container .foto img {
+      height: 200px;
+      width: 100%;
+      margin-top: 20px;
+      border: 6px solid black;
+      padding: 20px;
+
+    }
+
+    .uclu {
+      display: flex;
+      justify-content: space-around;
+      margin: 0 20px;
+    }
+
+    .uclu h5,
+    h6 {
+      margin: 0;
+      padding: 0;
+
+    }
+
+    .uclu h5 {
+      font-size: 20px;
+    }
+
+    .uclu img {
+      width: 200px;
+    }
+
+    .container .altyazi {
+      display: flex;
+      flex-wrap: nowrap;
+    }
+
+    .container .altyazi .yazi h3 {
+      margin: 0;
+    }
+
+    .container .altyazi .foti {
+      display: flex;
+      height: 60%;
+      margin-top: 20px;
+    }
+
+    .footer {
+      padding: 12px 36px;
+      background-color: #25373D;
+    }
+
+    .footer .footer-content {
+      
+      display: flex;
+      justify-content: space-between;
+      width: 55%;
+      margin: 0 auto;
+    }
+
+    .footer ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+    .footer ul li {
+      margin-bottom: 12px;
+    }
+    .footer ul a {
+      color: goldenrod;
+      text-decoration: none;
+      padding-bottom: 6px;
+      border-bottom: 1px dashed goldenrod;
+      
+    }
+  </style>
+</head>
+
+<body>
+  <div class="navbar">
+    <div class="yazi">
+      <h1> <span class="sari">W</span>EB TASARIM</h1>
+      <h5>www.tasarimkodlama.com</h5>
+    </div>
+    <div class="liste">
+      <ul>
+        <li><a href="">SAYFA</a></li>
+        <li><a href="">SAYFA</a></li>
+        <li><a href="">SAYFA</a></li>
+        <li><a href="">SAYFA</a></li>
+        <li><a href="">SAYFA</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container">
+    <div class="foto">
+      <img src="https://isbh.tmgrup.com.tr/sbh/2015/10/18/650x344/1445097657796.jpg?6848489165120151018015408" alt=""
+        width="20px">
+    </div>
+    <div class="uclu">
+      <div class="sol"><img
+          src="https://isbh.tmgrup.com.tr/sbh/2015/10/18/650x344/1445097657796.jpg?6848489165120151018015408" alt="">
+        <h5>Lorem Ipsum</h5>
+        <h6>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi cum laudantium odit eos, neque laborum alias
+          autem
+        </h6>
+      </div>
+      <div class="orta"><img
+          src="https://isbh.tmgrup.com.tr/sbh/2015/10/18/650x344/1445097657796.jpg?6848489165120151018015408" alt="">
+        <h5>Lorem Ipsum</h5>
+        <h6>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi cum laudantium odit eos, neque laborum alias
+          autem
+        </h6>
+      </div>
+      <div class="sag"><img
+          src="https://isbh.tmgrup.com.tr/sbh/2015/10/18/650x344/1445097657796.jpg?6848489165120151018015408" alt="">
+        <h5>Lorem Ipsum</h5>
+        <h6>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi cum laudantium odit eos, neque laborum alias
+          autem
+          .</h6>
+      </div>
+    </div>
+    <br>
+    <hr>
+    <div class="altyazi">
+      <div class="yazi">
+        <h3>Lorem Ipsum</h3>
+        <h5>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem dolore eligendi omnis rerum, autem, ullam
+          ipsa minus, sint at vitae et aut dignissimos a mollitia neque cum doloribus facilis impedit.
+          Dignissimos, adipisci vel perspiciatis qui sapiente atque a, in praesentium excepturi architecto, esse tempora
+          exercitationem. Est, mollitia nostrum accusamus repudiandae ut accusantium maiores corrupti cumque aspernatur
+          incidunt voluptates non sunt.
+          quisquam, perferendis ad. Obcaecati facere recusandae commodi quidem cum laborum, ea eligendi numquam?</h5>
+      </div>
+      <img class="foti"
+        src="https://isbh.tmgrup.com.tr/sbh/2015/10/18/650x344/1445097657796.jpg?6848489165120151018015408" alt=""
+        width="50%" height="100px">
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="footer-content">
+      
+    <ul>
+      <li><a href="#">Web Tasarım</a></li>
+      <li><a href="#">Web Tasarım</a></li>
+      <li><a href="#">Web Tasarım</a></li>
+    </ul>
+    <ul>
+      <li><a href="#">Web Tasarım</a></li>
+      <li><a href="#">Web Tasarım</a></li>
+      <li><a href="#">Web Tasarım</a></li>
+    </ul>
+    <ul>
+      <li><a href="#">Web Tasarım</a></li>
+      <li><a href="#">Web Tasarım</a></li>
+      <li><a href="#">Web Tasarım</a></li>
+    </ul>
+    <ul>
+      <li><a href="#">Web Tasarım</a></li>
+      <li><a href="#">Web Tasarım</a></li>
+      <li><a href="#">Web Tasarım</a></li>
+    </ul>
+  </div>
+  </footer>
+</body>
+</html>
